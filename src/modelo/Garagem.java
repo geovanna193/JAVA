@@ -1,4 +1,4 @@
-package src.modelo;
+package modelo;
 public class Garagem {
     private Carro carro1;
     private Carro carro2;
