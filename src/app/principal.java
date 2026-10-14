@@ -1,4 +1,4 @@
-package src.app;
+package app;
 import modelo.Carro;
 import modelo.Garagem;
 import modelo.Motorista;
