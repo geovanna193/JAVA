@@ -4,7 +4,7 @@ import modelo.Garagem;
 import modelo.Motorista;
 
 public class principal {
-    public static void main (string[] args){
+    public static void main (String[] args){
     //Marca, placa, modelo, int velocidade 
     Carro carro1 = new Carro("Ferrari", "1410HLNV", "Sport", 110);
     Carro carro2 = new Carro("Aston Martin","221BAKER", "SportHD",220);
@@ -18,16 +18,16 @@ public class principal {
     carro3.acelerar();
 
     Motorista motorista1 = new Motorista ("Charles", carro1);
-    Motorista motorista1 = new Motorista ("Sherlock", carro2);
+    Motorista motorista2 = new Motorista ("Sherlock", carro2);
 
     Garagem garagem = new Garagem();
     garagem.estacionar(carro1);
     garagem.estacionar(carro2);
     garagem.estacionar(carro3);
 
-    system.out.println("\n----- Motoristas -----\n");
-    System.out.println(motorista1.getNome() + "-->" + motorista1.getCarro()getPlaca());
-    System.out.println(motorista2.getNome() + "-->" + motorista2.getCarro()getPlaca());
+    System.out.println("\n----- Motoristas -----\n");
+    System.out.println(motorista1.getNome() + "-->" + motorista1.getCarro().getPlaca());
+    System.out.println(motorista2.getNome() + "-->" + motorista2.getCarro().getPlaca());
 
     System.out.println();
     garagem.exibir();
