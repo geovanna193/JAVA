@@ -39,7 +39,7 @@ public class Carro{
         return modelo;
     }
 
-    public String getVelocidade(){
+    public int getVelocidade(){
         return velocidade;
     }
      public static int getQuantidade(){
