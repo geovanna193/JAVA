@@ -18,7 +18,7 @@ public class Motorista{
             this.carro.exibir();
         }
         else{
-            System.out.println("Carro: nenhum")
+            System.out.println("Carro: nenhum");
         }
     }
     public String getNome(){
