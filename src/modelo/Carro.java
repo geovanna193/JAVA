@@ -21,10 +21,10 @@ public class Carro{
         velocidade -= 10;
     }
     public void exibir(){
-        System.out.println("Placa:" + placa);
-        System.out.println("Marca:" + marca);
-        System.out.println("Modelo:" + modelo);
-        System.out.println("Velocidade:" + velocidade);
+        System.out.println("Placa: " + placa);
+        System.out.println("Marca: " + marca);
+        System.out.println("Modelo: " + modelo);
+        System.out.println("Velocidade: " + velocidade);
     }
 
     public String getMarca(){
