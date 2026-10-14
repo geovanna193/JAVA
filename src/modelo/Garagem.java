@@ -20,12 +20,12 @@ public class Garagem {
     public void exibir(){
         System.out.println("----- Garagem -----");
         if (carro1 != null){
-            System.out.println("1." + carro1.getPlaca + "-" + carro1.getMarca() + " " + carro1.getModelo());
+            System.out.println("1." + carro1.getPlaca() + "-" + carro1.getMarca() + " " + carro1.getModelo());
         }
         if (carro2 != null){
-            System.out.println("1." + carro2.getPlaca + "-" + carro2.getMarca() + " " + carro2.getModelo());
+            System.out.println("1." + carro2.getPlaca() + "-" + carro2.getMarca() + " " + carro2.getModelo());
         }
         if (carro3 != null){
-            System.out.println("1." + carro3.getPlaca + "-" + carro3.getMarca() + " " + carro3.getModelo());
+            System.out.println("1." + carro3.getPlaca() + "-" + carro3.getMarca() + " " + carro3.getModelo());
 }}
 }

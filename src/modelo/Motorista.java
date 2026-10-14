@@ -12,7 +12,7 @@ public class Motorista{
         this.carro = novoCarro;
     }
     public void exibir(){
-        Syatem.out.println("Motorista: " + this.nome);
+        System.out.println("Motorista: " + this.nome);
         if(this.carro != null){
             System.out.println("Carro: ");
             this.carro.exibir();

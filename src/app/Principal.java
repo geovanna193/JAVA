@@ -3,7 +3,7 @@ import modelo.Carro;
 import modelo.Garagem;
 import modelo.Motorista;
 
-public class principal {
+public class Principal {
     public static void main (String[] args){
     //Marca, placa, modelo, int velocidade 
     Carro carro1 = new Carro("Ferrari", "1410HLNV", "Sport", 110);
