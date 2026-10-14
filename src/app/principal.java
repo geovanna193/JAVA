@@ -6,9 +6,9 @@ import modelo.Motorista;
 public class principal {
     public static void main (string[] args){
     //Marca, placa, modelo, int velocidade 
-    Carro carro1 = new Carro(marca:"Ferrari", placa:"1410HLNV", modelo:"Sport", velocidade: 110);
-    Carro carro2 = new Carro(marca: "Aston Martin", placa: "221BAKER", modelo: "SportHD",220);
-    Carro carro3 = new Carro(marca: "Mercedes", placa:"MRTH12", modelo: "Hybrid", 330);
+    Carro carro1 = new Carro("Ferrari", "1410HLNV", "Sport", 110);
+    Carro carro2 = new Carro("Aston Martin","221BAKER", "SportHD",220);
+    Carro carro3 = new Carro("Mercedes","MRTH12", "Hybrid", 330);
 
     carro1.acelerar();
     carro1.acelerar();
@@ -17,8 +17,8 @@ public class principal {
     carro3.acelerar();
     carro3.acelerar();
 
-    Motorista motorista1 = new Motorista (nome: "Charles", carro1);
-    Motorista motorista1 = new Motorista (nome: "Sherlock", carro2);
+    Motorista motorista1 = new Motorista ("Charles", carro1);
+    Motorista motorista1 = new Motorista ("Sherlock", carro2);
 
     Garagem garagem = new Garagem();
     garagem.estacionar(carro1);
